@@ -15,6 +15,18 @@
 		8AD4263622006522000D3A01 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8AD4263422006522000D3A01 /* LaunchScreen.storyboard */; };
 		8AD4264122006522000D3A01 /* LeroyMerlinTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AD4264022006522000D3A01 /* LeroyMerlinTests.swift */; };
 		8AD4264C22006522000D3A01 /* LeroyMerlinUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AD4264B22006522000D3A01 /* LeroyMerlinUITests.swift */; };
+		8AD42661220065E1000D3A01 /* SignInPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AD4265B220065E1000D3A01 /* SignInPresenter.swift */; };
+		8AD42662220065E1000D3A01 /* SignInRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AD4265C220065E1000D3A01 /* SignInRouter.swift */; };
+		8AD42663220065E1000D3A01 /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AD4265D220065E1000D3A01 /* SignInViewController.swift */; };
+		8AD42664220065E1000D3A01 /* SignInProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AD4265E220065E1000D3A01 /* SignInProtocols.swift */; };
+		8AD42665220065E1000D3A01 /* SignInInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AD4265F220065E1000D3A01 /* SignInInteractor.swift */; };
+		8AD4266822006748000D3A01 /* SignInConfigurator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AD4266722006748000D3A01 /* SignInConfigurator.swift */; };
+		8AD4267122006A93000D3A01 /* SignUpPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AD4266B22006A93000D3A01 /* SignUpPresenter.swift */; };
+		8AD4267222006A93000D3A01 /* SignUpRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AD4266C22006A93000D3A01 /* SignUpRouter.swift */; };
+		8AD4267322006A93000D3A01 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AD4266D22006A93000D3A01 /* SignUpViewController.swift */; };
+		8AD4267422006A93000D3A01 /* SignUpProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AD4266E22006A93000D3A01 /* SignUpProtocols.swift */; };
+		8AD4267522006A93000D3A01 /* SignUpInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AD4266F22006A93000D3A01 /* SignUpInteractor.swift */; };
+		8AD4267822006EF2000D3A01 /* SignUpConfigurator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AD4267722006EF2000D3A01 /* SignUpConfigurator.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +61,18 @@
 		8AD4264722006522000D3A01 /* LeroyMerlinUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LeroyMerlinUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8AD4264B22006522000D3A01 /* LeroyMerlinUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeroyMerlinUITests.swift; sourceTree = "<group>"; };
 		8AD4264D22006522000D3A01 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8AD4265B220065E1000D3A01 /* SignInPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInPresenter.swift; sourceTree = "<group>"; };
+		8AD4265C220065E1000D3A01 /* SignInRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInRouter.swift; sourceTree = "<group>"; };
+		8AD4265D220065E1000D3A01 /* SignInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
+		8AD4265E220065E1000D3A01 /* SignInProtocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInProtocols.swift; sourceTree = "<group>"; };
+		8AD4265F220065E1000D3A01 /* SignInInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInInteractor.swift; sourceTree = "<group>"; };
+		8AD4266722006748000D3A01 /* SignInConfigurator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInConfigurator.swift; sourceTree = "<group>"; };
+		8AD4266B22006A93000D3A01 /* SignUpPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpPresenter.swift; sourceTree = "<group>"; };
+		8AD4266C22006A93000D3A01 /* SignUpRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpRouter.swift; sourceTree = "<group>"; };
+		8AD4266D22006A93000D3A01 /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		8AD4266E22006A93000D3A01 /* SignUpProtocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpProtocols.swift; sourceTree = "<group>"; };
+		8AD4266F22006A93000D3A01 /* SignUpInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpInteractor.swift; sourceTree = "<group>"; };
+		8AD4267722006EF2000D3A01 /* SignUpConfigurator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpConfigurator.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +123,7 @@
 		8AD4262722006521000D3A01 /* LeroyMerlin */ = {
 			isa = PBXGroup;
 			children = (
+				8AD426592200659D000D3A01 /* modules */,
 				8AD4262822006521000D3A01 /* AppDelegate.swift */,
 				8AD4262A22006521000D3A01 /* ViewController.swift */,
 				8AD4262C22006521000D3A01 /* Main.storyboard */,
@@ -126,6 +151,41 @@
 				8AD4264D22006522000D3A01 /* Info.plist */,
 			);
 			path = LeroyMerlinUITests;
+			sourceTree = "<group>";
+		};
+		8AD426592200659D000D3A01 /* modules */ = {
+			isa = PBXGroup;
+			children = (
+				8AD4266A22006A7D000D3A01 /* SignUp */,
+				8AD4265A220065BD000D3A01 /* SignIn */,
+			);
+			path = modules;
+			sourceTree = "<group>";
+		};
+		8AD4265A220065BD000D3A01 /* SignIn */ = {
+			isa = PBXGroup;
+			children = (
+				8AD4265D220065E1000D3A01 /* SignInViewController.swift */,
+				8AD4265B220065E1000D3A01 /* SignInPresenter.swift */,
+				8AD4265C220065E1000D3A01 /* SignInRouter.swift */,
+				8AD4265E220065E1000D3A01 /* SignInProtocols.swift */,
+				8AD4265F220065E1000D3A01 /* SignInInteractor.swift */,
+				8AD4266722006748000D3A01 /* SignInConfigurator.swift */,
+			);
+			path = SignIn;
+			sourceTree = "<group>";
+		};
+		8AD4266A22006A7D000D3A01 /* SignUp */ = {
+			isa = PBXGroup;
+			children = (
+				8AD4266D22006A93000D3A01 /* SignUpViewController.swift */,
+				8AD4266B22006A93000D3A01 /* SignUpPresenter.swift */,
+				8AD4266C22006A93000D3A01 /* SignUpRouter.swift */,
+				8AD4266E22006A93000D3A01 /* SignUpProtocols.swift */,
+				8AD4266F22006A93000D3A01 /* SignUpInteractor.swift */,
+				8AD4267722006EF2000D3A01 /* SignUpConfigurator.swift */,
+			);
+			path = SignUp;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -259,8 +319,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8AD42661220065E1000D3A01 /* SignInPresenter.swift in Sources */,
+				8AD42662220065E1000D3A01 /* SignInRouter.swift in Sources */,
+				8AD4267822006EF2000D3A01 /* SignUpConfigurator.swift in Sources */,
+				8AD4266822006748000D3A01 /* SignInConfigurator.swift in Sources */,
+				8AD42664220065E1000D3A01 /* SignInProtocols.swift in Sources */,
+				8AD42663220065E1000D3A01 /* SignInViewController.swift in Sources */,
+				8AD4267222006A93000D3A01 /* SignUpRouter.swift in Sources */,
+				8AD4267322006A93000D3A01 /* SignUpViewController.swift in Sources */,
+				8AD42665220065E1000D3A01 /* SignInInteractor.swift in Sources */,
 				8AD4262B22006521000D3A01 /* ViewController.swift in Sources */,
 				8AD4263122006521000D3A01 /* LeroyMerlin.xcdatamodeld in Sources */,
+				8AD4267122006A93000D3A01 /* SignUpPresenter.swift in Sources */,
+				8AD4267422006A93000D3A01 /* SignUpProtocols.swift in Sources */,
+				8AD4267522006A93000D3A01 /* SignUpInteractor.swift in Sources */,
 				8AD4262922006521000D3A01 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -437,6 +509,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = C8F3CLJ592;
 				INFOPLIST_FILE = LeroyMerlin/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -454,6 +527,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = C8F3CLJ592;
 				INFOPLIST_FILE = LeroyMerlin/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
